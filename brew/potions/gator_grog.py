@@ -11,13 +11,10 @@ class GatorGrog(Potion):
             mouse.move(1452, 834)
             mouse.click()
             time.sleep(.1)
-            mouse.release()
-            time.sleep(.1)
         time.sleep(.1)
         mouse.move(1151, 702)
         mouse.click()
         time.sleep(.1)
-        mouse.release()
         self.create_past_max()
 
 
